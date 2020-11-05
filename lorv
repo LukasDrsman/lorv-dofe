@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+
+# imports
+import sys
+from main import main
+import cv2 as cv
+import numpy as np
+
+if __name__ == "__main__":
+    args = sys.argv
+    args.pop(0)
+    main(args)
